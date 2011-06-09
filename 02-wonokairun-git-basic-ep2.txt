@@ -36,4 +36,290 @@ BD: "Intine nek kepingin nracking isi source code nang njerone direktori, mesti
      gawe perintah 'git init'
 WK: "Oh ngono, dadi enak'e saiki nggawe direktori sek ae gawe percobaan"
 BD: "Iyo enak ngono"
-WK: "Yo wis aku tak nggawe 
+WK: "Yo wis aku tak nggawe direktori anyar gawe contoh sinau git"
+
+(Wonokairun mbukak terminal)
+
+[-- terminal --]
+$ cd /home/wonokairun-handsome
+
+(brudin ngguyu cekikikan)
+
+WK: "Lapo koen ngguyu din"
+BD: "Eleng ngumur mosok jeneng direktori wonokairun-handsome mestine lak 
+     wonokairun-ambu-lemah ta opo ngono hahaha"
+WK: "Wooh njaluk tak sawat monitor koen"
+BD: "Wis mbah lanjut maneh..."
+
+[-- terminal --]
+$ pwd
+/home/wonokairun-handsome
+$ mkdir hello-php
+$ git init
+Initialized empty Git repository in /home/wonokairun-handsome/hello-php/.git/
+
+WK: "Terus din mari ngene lapo?"
+BD: "Nang rasa say*ng mbah!"
+WK: "Woh ndasmu, iku mari ngene ae nek mari sinau git. Mantab a?"
+BD: "mantab jaya!"
+WK: "Wis saiki opo terusane..."
+BD: "Mari ngono coba nggaweo file anyar terus baru coba ditrack nggawe perintah 
+     git status"
+WK: "Oke..."
+BD: "Sek-sek mbah sak durunge kene nyetting user karo email dhisek ae"
+WK: "Gawe opo iku?"
+BD: "Gawe penanda pas nyimpen perubahan file."
+WK: "yowis yo opo carane?"
+BD: "Nggawe perintah git config --global user.name "NAMA_USER" karo
+     git config --global user.email alamatemail"
+WK: "Oke tak praktekno
+
+[-- terminal --]
+$ git config --global user.name "Wonokairun Ganteng"
+$ git config --global user.enauk wono@kairun.net
+
+WK: "Wis din lanjut nang nggawe file yo?"
+BD: "iyo lanjut"
+
+[-- terminal --]
+$ touch hello.php
+$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	hello.php
+nothing added to commit but untracked files present (use "git add" to track)
+
+WK: "Tulisan opo ae artine iki din..!"
+BD: "Nah iku artine onok file jenenge hello.php seng sek durung dilebokno nang
+     status monitor git"
+WK: "Gak mudeng sek an..."
+BD: (-_-') "Ngene mbah, nek kepengen file iku dimonitor git. Kene kudu 
+    ngelebokno dhisek nang daftar status monitor-e git"
+WK: "Oh ngono, lah terus cara nambahno file seng kepengen dimonitor yok opo?"
+BD: "Gawe perintah git add jeneng_file_e. cobaen saiki!"
+WK: "oke din..."
+BD: "Ojok lali mari git add langsung git status nek ngerti onok perubahan ta 
+     enggak"
+
+[-- terminal --]
+$ git add hello.php
+$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   hello.php
+#
+
+BD: "Nah tulisan iku artine onok file anyar seng ditambahno nang status monitor
+     e git. jenenge hello.php"
+WK: "hmmm..." (ambek manthuk-manthuk)
+BD: "hahem..hahem tok... ngerti gak?"
+WK: (SEPLAK!!!). ndase Brudin dikeplak  Wonokairun
+WK: "Yo ngerti dul!"
+BD: "Yowis saiki editen mbah file hello.php, mari ngono dicoba dimonitor lewat
+     git perubahane!"
+     
+[-- terminal --]
+$ vim hello.php
+
+BD: "hahahahah gayamu mbah gawe vim, wong jeneng putune dewe ae lali!"
+WK: "Justru iku din nek pikun ku gak tambah parah aku tak nggawe vim ae dadi
+     akeh ngapalo perintah-perintah hehe"
+
+[-- terminal --]
+<?php
+
+// mencetak string Hello World
+echo ("Hello World!");
+
+[ save exit -> :wq ]
+
+$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   hello.php
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   hello.php
+#
+
+BD: "Nah iku, onok keterangan anyar file seng wis dimodifikasi, saiki jalakno
+     perintah git add hello.php"
+WK: "Lah lapo ngetik perintah git add maneh kan file hello.php wis mari 
+     dilebokno mau."
+BD: "Nah iku salah sijine perbedaane git karo SCM liyane, nek wis mari 
+     modifikasi file nek gak di-git-add maneh file iku gak dilebokno nang daftar
+     commit"
+WK: "Oh ngono... yowis tak coba'e"
+
+[-- terminal --]
+$ git add hello.php
+$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   hello.php
+#
+
+WK: "Oh iyo din, wis gak metu saiki status 'modified' maneh"
+BD: "Nah saiki wayahe nyimpen snapshot perubahane nggawe perintah git commit"
+WK: "Fungsi utamane opo iku din?"
+BD: "Yo mene saumpono sampean kepengen mbalek nang kondisi tertentu, yo kondisi
+     pas commit iku seng isok dibalekno."
+WK: "Sek gak mudeng..."
+BD: (-_-') "Sampean tau main PlayStation seh?" 
+WK: "Yo tau rek, masio tuwek-tuwek ngene aku yo ngerti dolenane arek cilik 
+    saiki"
+BD: "Nah nek nang PS kan sampean pas maen game nek mari menang biasane langsung
+     cepet-cepet disimpen nang memory card opo maneh nyowone sek akeh!"
+WK: "Hahahha iyo bener-bener!"
+BD: "Nah saumpono pas lanjut main nyowo kari titik, biasane sampean pasti 
+    kepengean mbalek maneh ngulang teko simpenan nang memory card mau seng 
+    nyowone sek akeh"
+WK: "Iyo... iyo"
+BD: "Nah podo karo git, comit fungsine yo nyimpen kondisi seng menurut sampean 
+     layak kanggo disimpen"
+WK: "Oalah ngono ta.. mudeng-mudeng saiki. Dadi aku isok mbalek nang kondisi 
+     opo ae asalkan tak commit. Dadi aku isok mbalek iku gak mesti teko commit 
+     seng terakhir tok yo?"
+BD: "Iyo bener..."
+WK: "Oke tak praktekno..."
+
+[-- terminal --]
+$ git commit
+
+WK: "Loh din kok moro-moro metu vim ngene padahal aku gak njalakno vim"
+BD: "Iyo iku default e git nek pas commit kene kudu nginputno isi pesane opo
+     pas commit iku. Kadang ngono metune editor nano, tergantung default editor
+     e sampean"
+WK: "Oh ngono, iki berarti tak hapus kabeh tak ganti pesanku gpp yo?"
+BD: "Iyo gpp"
+
+[-- nang njerone vim --]
+Commit seng pertama (Mek nyetak Hello World tok)
+
+[ save exit :wq ]
+[master (root-commit) 339c258] Commit seng pertama (Mek nyetak Hello World tok)
+ 1 files changed, 4 insertions(+), 0 deletions(-)
+ create mode 100644 hello.php
+ 
+BD: "Nah iku metu keterangan opo ae seng berubah pas commit. Saiki coba jalakno
+     programe be'e onok seng error ta kurang."
+WK: "Oke, iki tak jalakno lewat php-cli ne xampp ae yo?"
+BD: "Sembarang pokok'e mlaku"
+
+[-- terminal --]
+$ pwd
+/home/wonokairun-handsome
+$ /opt/lampp/bin/php hello.php
+Hello World!$
+
+WK: "Walah din, lali gak tak ke'i karakter Line Feed (\n)"
+BD: "Editen mbah terus perikso nggawe git status mari ngono git diff"
+WK: "Opo maneh git diff iku?"
+BD: "Wis ta cobaen sek"
+
+[-- terminal --]
+$ vim hello.php
+<?php
+
+// mencetak string Hello World
+echo ("Hello World!");
+echo ("\n");
+[ save exit :wq ]
+
+$ git status
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   hello.php
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+
+$ git diff 
+diff --git a/hello.php b/hello.php
+index a7255c7..8eafb42 100644
+--- a/hello.php
++++ b/hello.php
+@@ -2,3 +2,4 @@
+ 
+ // mencetak string Hello World
+ echo ("Hello World!");
++echo ("\n");
+
+WK: "Wah artine opo git diff iku din?"
+BD: "Nah baris seng tanda + iku mbah artine seng nang source lawas gak onok,
+     artine hello.php iku ketambahan baris code anyar."
+WK: "Oh iyo aku mau nambah code anyar"
+BD: "Nah saiki commit en, nek gak kepengen melbu editor pas ngelebokno pesan 
+     commit, tambahono parameter -m mbah nang git commit. contoh:
+     git commit -m "tes"
+WK: "Oh dadi gak perlu maneh melbu editor yo din"
+BD: "Iyo tapi iku nek pesan commit gawe seng endek-endek ae, nek seng dowo yo
+     tetep enak nggawe editor. ojok lali di git add sek mbah"
+WK: "Oke"
+
+[-- terminal --]
+$ git add hello.php
+$ git commit -m "Nambah Line Feed"
+[master 0e26ff3] Nambahi line feed
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+$ /opt/lampp/bin/php hello.php
+Hello World!
+$
+
+WK: "Wah sip din, wis tepak programe."
+BD: "Gampang yo tibakno GIT"
+WK: "Iyo, tapi nek aku kepengen ndelok daftar commit e iku yok opo din?"
+BD: "oh iyo sampe lali, nek iku nggawe perintah git log"
+WK: "Sek tak coba'e"
+
+[-- terminal --]
+$ git log
+commit 0e26ff381b94d2ea7c43d91f789dfd536e6d539a
+Author: Rio Astamal <c0kr3x@gmail.com>
+Date:   Thu Jun 9 22:20:51 2011 +0700
+
+    Nambahi line feed
+
+commit 339c258bb8300b39b26b7c5ec7f7361171fec8a2
+Author: Rio Astamal <c0kr3x@gmail.com>
+Date:   Thu Jun 9 21:57:20 2011 +0700
+
+    Commit seng pertama (Mek nyetak Hello World tok
+
+WK: "Wah iyo iku mau pesen-pesen commit seng tak simpen"
+BD: "Iyo, git nyimpen setiap perubahane nanggo SHA1 hash. Hash iku seng isok
+     digawe mbaleno nang kondisi-kondisi commit. semacam ID commit e lah.
+WK: "Oh ngono..."
+BD: "Wis mbah saiki ayo nang Rasa S*yang onok artis demenanku pengen tak 
+     booking"
+WK: "Koen iku utekmu mesum tok, yowis ayo... budhal. Mene lanjut sinau GIT maneh
+     yo?"
+BD: "Beres... saiki ngecharge sek.."
+
+bersambung ke episode 03...
