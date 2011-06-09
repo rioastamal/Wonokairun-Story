@@ -1,0 +1,62 @@
+EPISODE 01
+----------
+
+WK -> Wonokairun
+LS -> Linus
+
+[ Lokasi: Nang Negoro Finlandia ]
+
+(Pas Wonokairun ngenteni taksi apene nang bandara de'e koyok ketok konco lawase)
+WK: (Loh arek iku koyok Linus). Jarene Wonokairun nang njero ati.
+WK: "Hoi nus Linus". Wonokairun mbengok
+LS: "Loh eh, mbah Wo?"
+WK: "Iyo... koen kiro Brad Pitt ta?"
+LS: "Hahaha isok ae sampeyan iku mbah..mbah.."
+WK: "Gak ngono soale mau onok arek wedok dikiro aku iki Brad Pitt dijaluk'i
+     tanda tangan!"
+LS: (-_-') (Iyo wong sebelahmu iku onok RS Jiwa, jelas arek gendeng iku mau). 
+    Jarene Linus nang atine.
+LS: "Yo opo kabar sampean mbah? Lapo nang finland iku?"
+WK: "Iki loh, aku jange dikongkon dadi CEO anyare Nokia tapi tak tolak."
+LS: (-_-') "Aku ae seng nggawe kernel'e Linux gak tau ditawari, opo mane
+    praen seng dapurane koyok sampean mbah...!"
+WK: "Loh mayak arek iki, tak gibeng dadi pinguin kapok koen!"
+LS: "Hahahaha guyon mbah.."
+WK: "Awakmu teko endi nus?"
+LS: "Iki loh mari nge'i seminar nang gedung sebelah"
+WK: "Lah klambimu kok koyok klambine wong turu ngene, opo iku jenenge piala"
+LS: "Piayama ta mbah!!"
+WK: "Iyo... maksudku iku heheheh. Nge'i seminar tentang opo koen?"
+LS: "Tentang penggunaan GIT"
+WK: "GIT, panganan opo iku!?"
+LS: "Lemper dicampur abon! Iki duduk panganan mbah!@#$% iki software"
+WK: "Oh software, tak kiro panganan. Gawe opo fungsine iku?"
+LS: "Sampan ngedit source code kan mbah?"
+WK: "Yo jelasss! ngene-ngene iki mbah kan web developer"
+LS: "Nah gampangane GIT iku mbantu developer kanggo nyimpen setiap snapshot
+     utowo kondisi teko source code seng dikerjakno."
+WK: "hmmm" (karo manthuk-manthuk)
+LS: "Dadi sampean iso mbalek nang kondisi snapshot-snapshot sak durunge saumpomo
+     sampean nggawe kesalahan nang codingan seng anyar."
+LS: "Sampean yo isok kolaborasi kalo developer liyane, terus seng paling penting
+     GIT gak mesti kudu client-server. Dadi full local hardisk gak usah
+     jaringan gpp."
+WK: "Wah ketok'e menarik iku, mene nek teko omah tak pelajarane..."
+LS: "Iyo mbah wis gak usum nggawe diff + patch koyok biyen"
+WK: "Ohh ngono yo..."
+
+(Gak suwe onok dokter 1 karo 2 perawat nggawe pakaian putih teko)"
+Dokter-> DK
+
+DK: "Linus sayang... ayo pulang dulu lalu minum obatnya ntar ibu dokter kasih 
+     boneka pinguin ya :D"
+LS: "Boneka pinguin...?? oke-oke..."
+WK: "Loh dok, lapo koncoku digowo!"
+DK: "Loh sampean koncone ta?"
+WK: "Iyo aku Linus Torvalds iku koncoku.."
+DK: "Ealah mbah-mbah sampean iku salah wong, iki ngono duduk Linus Torvalds tapi
+     jenenge Bunalinus. De'e iku gendeng gara-gara ngoprek kernel linux! arek'e
+     pancen mirip karo Linus asli"
+WK: "Wooh dadi kaet mau aku ngomong karo wong gendeng... jiangkrek!!"
+
+bersambung ke episode 02...
