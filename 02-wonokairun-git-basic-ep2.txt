@@ -20,9 +20,11 @@ WK: "Loh koen ngerti din?"
 BD: "Iyo... pancen onok software iku mbah, alamate nang http://git-scm.com/"
 WK: "Oh ok engkok tak download"
 BD: "Ngomong-ngomong seng ngandani sampean git iku wong gendeng temen ta mbah?"
-WK: "Iyo moso gak percoyo koen.."
+WK: "Iyo moso gak percoyo koen, jenenge nek gak salah Bunalinus"
 BD: "Mbois yo wong gendeng nang finlandia, gendenge ngelindur git"
-WK: "Iyo wakkakaka"
+WK: "Iyo gak koyok gendenge Bunali koncone awakndewe, gendeng gara-gara 
+     ditinggal Romlah bojone"
+BD: "Iyo mbah gendengi Bunali gak mbois blas hahahaha"
 
 (Gak suwe langsung wong loro iku download mesisan sinau git)
 
