@@ -10,3 +10,7 @@ selain Linux/"BSD like" pastikan document viewer anda mendukung fitur tersebut.
 
 
 *) Penyebutan Linux mengacu pada GNU/Linux.
+
+Ditulis Oleh:
+-------------
+Rio Astamal (me@rioastamal.net)
