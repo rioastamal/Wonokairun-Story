@@ -1,0 +1,39 @@
+EPISODE 02: Git Basic
+---------------------
+
+WK -> Wonokairun
+BD -> Brudin
+
+[ Lokasi: Nang Suroboyo ]
+
+WK: "Ealah tiwas seneng-seneng tak kiro GIT iku onok temenan tiba'e dibujuk'i
+     wong gendeng Finlandia"
+BD: "Sampean iku laopo mbah kok ketok'e nesu?"
+WK: "Iki loh din, aku wingi nane kan teko finlandia dicritani tentang software 
+     jenenge GIT. Lah tibakno sing crito iku wong gendeng... ealah!"
+BD: "Loh GIT iku lak pancen onok temenan mbah!"
+WK: "Iyo ta din, seng temen koen?"
+BD: "Iyo GIT... Goyangan Inul Terus kan mbah?"
+WK: "Wooh jangkrek iku, tak gibeng nggawe chasing server kapok koen!"
+BD: "heheheh guyon mbah, GIT SCM kan?"
+WK: "Loh koen ngerti din?"
+BD: "Iyo... pancen onok software iku mbah, alamate nang http://git-scm.com/"
+WK: "Oh ok engkok tak download"
+BD: "Ngomong-ngomong seng ngandani sampean git iku wong gendeng temen ta mbah?"
+WK: "Iyo moso gak percoyo koen.."
+BD: "Mbois yo wong gendeng nang finlandia, gendenge ngelindur git"
+WK: "Iyo wakkakaka"
+
+(Gak suwe langsung wong loro iku download mesisan sinau git)
+
+WK: "Coro nggawene git iku yo opo din?"
+BD: "Emboh mbah aku yo sek tas moco-moco dokumentasine."
+WK: "Walah yowis wocoen kabeh aku seng mraktekno"
+BD: (-_-')
+BD: "Oke mbah wis tak woco tentang pengenalan git.."
+WK: "Yo opo... yo opo..."
+BD: "Intine nek kepingin nracking isi source code nang njerone direktori, mesti
+     gawe perintah 'git init'
+WK: "Oh ngono, dadi enak'e saiki nggawe direktori sek ae gawe percobaan"
+BD: "Iyo enak ngono"
+WK: "Yo wis aku tak nggawe 
