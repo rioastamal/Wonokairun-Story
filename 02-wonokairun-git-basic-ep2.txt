@@ -57,6 +57,7 @@ BD: "Wis mbah lanjut maneh..."
 $ pwd
 /home/wonokairun-handsome
 $ mkdir hello-php
+$ cd hello-php
 $ git init
 Initialized empty Git repository in /home/wonokairun-handsome/hello-php/.git/
 
@@ -233,7 +234,7 @@ BD: "Sembarang pokok'e mlaku"
 
 [-- terminal --]
 $ pwd
-/home/wonokairun-handsome
+/home/wonokairun-handsome/hello-php
 $ /opt/lampp/bin/php hello.php
 Hello World!$
 
