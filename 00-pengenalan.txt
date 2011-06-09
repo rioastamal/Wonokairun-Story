@@ -14,3 +14,7 @@ selain Linux/"BSD like" pastikan document viewer anda mendukung fitur tersebut.
 Ditulis Oleh:
 -------------
 Rio Astamal (me@rioastamal.net)
+
+Clone this:
+-----------
+git clone http://repo.stikom.edu/~c0kr3x/wonokairun-story.git
