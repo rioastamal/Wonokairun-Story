@@ -53,7 +53,7 @@ DK: "Linus sayang... ayo pulang dulu lalu minum obatnya ntar ibu dokter kasih
 LS: "Boneka pinguin...?? oke-oke..."
 WK: "Loh dok, lapo koncoku digowo!"
 DK: "Loh sampean koncone ta?"
-WK: "Iyo aku Linus Torvalds iku koncoku.."
+WK: "Iyo Linus Torvalds iku koncoku.."
 DK: "Ealah mbah-mbah sampean iku salah wong, iki ngono duduk Linus Torvalds tapi
      jenenge Bunalinus. De'e iku gendeng gara-gara ngoprek kernel linux! arek'e
      pancen mirip karo Linus asli"
