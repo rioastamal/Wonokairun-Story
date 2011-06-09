@@ -31,14 +31,14 @@ LS: "Tentang penggunaan GIT"
 WK: "GIT, panganan opo iku!?"
 LS: "Lemper dicampur abon! Iki duduk panganan mbah!@#$% iki software"
 WK: "Oh software, tak kiro panganan. Gawe opo fungsine iku?"
-LS: "Sampan ngedit source code kan mbah?"
+LS: "Sampean ngedit source code kan mbah?"
 WK: "Yo jelasss! ngene-ngene iki mbah kan web developer"
 LS: "Nah gampangane GIT iku mbantu developer kanggo nyimpen setiap snapshot
      utowo kondisi teko source code seng dikerjakno."
 WK: "hmmm" (karo manthuk-manthuk)
 LS: "Dadi sampean iso mbalek nang kondisi snapshot-snapshot sak durunge saumpomo
      sampean nggawe kesalahan nang codingan seng anyar."
-LS: "Sampean yo isok kolaborasi kalo developer liyane, terus seng paling penting
+LS: "Sampean yo isok kolaborasi karo developer liyane, terus seng paling penting
      GIT gak mesti kudu client-server. Dadi full local hardisk gak usah
      jaringan gpp."
 WK: "Wah ketok'e menarik iku, mene nek teko omah tak pelajarane..."
