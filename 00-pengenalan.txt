@@ -1,0 +1,12 @@
+Ini adalah sebuah cerita tentang Source Code Management (SCM) GIT dengan 
+menggunakan dialek "Suroboyoan". Jadi jika tidak mengerti silahkan datang 
+ke Surabaya atau minta orang yang mengerti untuk menterjemahkan ke 
+Bahasa Indonesia ;).
+
+Cerita ini dibagi dalam beberapa episode, setiap episode ditulis menggunakan
+plain text jadi dapat dibuka diberbagai editor. Mode baris setiap dokumen 
+menggunakan UNIX Line Feed (\n). Jadi jika membuka menggunakan sistem operasi
+selain Linux/"BSD like" pastikan document viewer anda mendukung fitur tersebut.
+
+
+*) Penyebutan Linux mengacu pada GNU/Linux.
