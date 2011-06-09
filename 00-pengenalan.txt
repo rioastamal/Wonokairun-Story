@@ -18,3 +18,4 @@ Rio Astamal (me@rioastamal.net)
 Clone this:
 -----------
 git clone http://repo.stikom.edu/~c0kr3x/wonokairun-story.git
+git clone git://github.com/astasoft/Wonokairun-Story.git
