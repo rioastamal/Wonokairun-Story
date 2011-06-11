@@ -55,5 +55,88 @@ WK: "Apane kelanthing iku din?"
 BD: "Nek branching iku gak atek kelopo mbah!, Wok!! sampean iku mosok 
     dipadakno jajanan pasar!"
 WK: "Hehehe... yo opo yo opo... jelasno"
-BD: ""
+BD: "Dadi ngene mbah... misal sampean kepengen nambahi fitur anyar nang project
+    hello-php wingi"
+BD: "Nek gak atek nggawe SCM biasane kene nek backup kan mek copy-paste 
+     direktori hello-php nang nggone liyane gawe jogo-jogo saumpono codingan
+     seng anyar salah"
+WK: "Iyoo biasana aku ngono tak copy sek baru aku ngedit-ngedit maneh..."
+BD: "Nah nek nggawe Git sampean gak perlu koyok ngono, sampean isok mecah status
+     development-e misal dadi testing"
+BD: "Kerjoan sampean nang branch testing iki gak akan ngaruh nang kerjoan utama
+     sampean"
+WK: "Oh ngono yo, jujur ae aku sek gak sepiro mudeng, yok opo nek langsung 
+     praktek ae?"
+BD: "Aku wis ngiro jawaban sampean koyok ngono, yowis saiki melbuo direktori
+     hello-php seng digawe wingi"
+WK: "Ok din..."
+
+(Wonokairun mbukak terminal)
+
+[-- terminal --]
+$ cd /home/wonokairun-handsome/hello-php
+$ ls
+hello.php
+
+WK: "Wis din terus mari ngene iki yok opo?"
+BD: "Nah saiki coba ketikkan git branch kanggo ndelok daftar branch seng wis
+     onok"
+
+[-- terminal --]
+$ git branch
+* master
+
+BD: "Nah iku metu daftar branch seng onok, master iki branch default e git pas
+     sampean pertama kali ngetik perintah git init wingi"
+WK: "Oh... gak iso diganti liyane ta iki din?"
+BD: "Isok ae tapi enggkok ae, saiki coba nggaweo branch anyar jenenge testing.
+     perintahe 'git branch testing' langsung git branch maneh gawe ndelok"
+WK: "Oke din... On My Way"
+BD: "Gayane... mau OTW ae gak ngerti saiki OMW" (-_-')
+
+[-- terminal --]
+$ git branch testing
+$ git branch
+* master
+  testing
+
+WK: "Wah iyo din saiki branch-e onok 2, tapi tanda bintang iku opo artine din?"
+BD: "Artine seng ngajari iki njaluk ditukokno B*r B*ntang!" (ambek mringis)
+WK: "Wooh raimu tak wedak'i ampase kopi kapok koen. Mau bengi sek tas mari 
+     dibayari ngono!"
+BD: "Heehe guyon mbah, iku artine branch seng aktif saiki iku branch master"
+BD: "Saiki coba ketikkan 'git checkout testing' terus git branch"
+WK: "Ok tak praktekno..."
+
+[-- terminal --]
+$ git checkout testing
+$ git branch
+  master
+* testing
+
+WK: "Wah iyo din bintang'e pindah nang testing, berarti branch seng aktif saiki
+     branch testing yo?"
+BD: "Iyo bener mbah, nah saiki nek kepengen ngetes codingan anyar pastekno sek
+     sampean wis nang branch testing sak durunge mulai"
+WK: (Manthuk-manthuk)
+BD: "Nah saiki kan wis nang branch testing, saiki tambahono fiture program
+     sampean mau."
+WK: "Oh ngono, oke enak'e tak tambahi parsing parameter. Dadi engkok output e
+     'Hello {PARAM1}, Yok opo kabarmu?' Masok a din?
+BD: "Sip, wis mbah ndang dipraktekno"
+
+[-- terminal --]
+$ vim hello.php
+<?php
+
+// mencetak string Hello World
+echo ("Hello World!");
+echo ("\n");
+
+// Nyetak param kesiji
+$param1 = (isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : FALSE);
+// nek $param1 diisi cetak, tapi nek gak yo babahno
+if ($param1) {
+    printf("Hello %s, Yok opo kabarmu?\n", $param1);
+}
 
