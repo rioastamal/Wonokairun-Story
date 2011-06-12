@@ -457,7 +457,7 @@ Hello World!
 WK: "Mantab jaya!"
 BD: "Wis yo mbah paham kan masalah branching-branchingan?"
 WK: "Iyo din wis lumayan paham aku"
-BD: "Yowis ayo karambol engkok selak nggone gak diumani karo Togok karo 
+BD: "Yowis ayo karambol engkok selak nggone gak diumani karo Togok ambek 
      Mat Pithi"
 WK: "Nyante ae, nek sampe kene gak diumane tak dulang kanji arek loro iku!!"
 BD: "Wakakka joss mbah, ayo budhal..."
