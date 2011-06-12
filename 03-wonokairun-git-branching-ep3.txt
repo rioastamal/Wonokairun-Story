@@ -106,7 +106,7 @@ BD: "Artine seng ngajari iki njaluk ditukokno B*r B*ntang!" (ambek mringis)
 WK: "Wooh raimu tak wedak'i ampase kopi kapok koen. Mau bengi sek tas mari 
      dibayari ngono!"
 BD: "Heehe guyon mbah, iku artine branch seng aktif saiki iku branch master"
-BD: "Saiki coba ketikkan 'git checkout testing' terus git branch"
+BD: "Saiki coba ketikken 'git checkout testing' terus git branch"
 WK: "Ok tak praktekno..."
 
 [-- terminal --]
@@ -171,7 +171,7 @@ BD: "Sampean tambahi pirang baris iku mbah 1,2,3...7"
 WK: "Iyo tak tambahi codingan anyar nak nisore seng mbiyen"
 BD: "Yo wis, saiki coba sampean nang branch seng endi? tapi commit en sek 
      perubahane sampean mau. Sek eleng kan carane commit"
-WK: "Yo gampang din..., add disek teru dicommit kan?"
+WK: "Yo gampang din..., add disek terus dicommit kan?"
 
 [-- terminal --]
 $ git add hello.php
@@ -439,7 +439,7 @@ index 9a2e2a0..83b7ab5 100644
 +    printf("Hello %s, Yok opo kabarmu?\n", $param1);
  }
 
-BD: "Nah iku perbedaane branch master karo branch testing ketok'e mbah"
+BD: "Nah iku ketok perbedaane branch master karo branch testing mbah"
 WK: "Oh iyo...iyo.., yowis tak merge yo"
 
 [-- terminal --]
