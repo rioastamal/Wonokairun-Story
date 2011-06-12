@@ -287,7 +287,7 @@ WK: "Oke"
 
 [-- terminal --]
 $ git add hello.php
-$ git commit -m "Nambah Line Feed"
+$ git commit -m "Nambahi Line Feed"
 [master 0e26ff3] Nambahi line feed
  1 files changed, 1 insertions(+), 0 deletions(-)
 
@@ -303,17 +303,17 @@ WK: "Sek tak coba'e"
 
 [-- terminal --]
 $ git log
-commit 0e26ff381b94d2ea7c43d91f789dfd536e6d539a
+commit ab70a825c54fdf2e723538d288a44efdbff1951b
 Author: Wonokairun Ganteng <wono@kairun.net>
 Date:   Thu Jun 9 22:20:51 2011 +0700
 
     Nambahi line feed
 
-commit 339c258bb8300b39b26b7c5ec7f7361171fec8a2
+commit 3f9903a3b698c225fbc2d1eeb6638097bef0298e
 Author: Wonokairun Ganteng <wono@kairun.net>
 Date:   Thu Jun 9 21:57:20 2011 +0700
 
-    Commit seng pertama (Mek nyetak Hello World tok
+    Commit seng pertama (Mek nyetak Hello World tok)
 
 WK: "Wah iyo iku mau pesen-pesen commit seng tak simpen"
 BD: "Iyo, git nyimpen setiap perubahane nanggo SHA1 hash. Hash iku seng isok
