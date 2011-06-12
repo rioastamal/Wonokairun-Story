@@ -24,11 +24,11 @@ RK: "Oalah awakmu din, melbuo... sek yo tak celokno Cak Wono"
 BD: "Nggih mbok yah..."
 RK: "Opoooo!! mbok? anggetmu aku wis mambu lemah ta koen celok mbok! celuk en
      Tante...."
-BD: "Nggih tante..." (-_-') (tiba'e sak bojo podo sedeng'e) jarene brudin nang
+BD: "Nggih tante..." (-_-') (tiba'e sak bojo podo sedeng'e). jarene brudin nang
     njerone ati.
 WK: "Hoi din..., sek yo tak kongkon rokayah njupuk kobok'an"
 BD: "Gawe opo mbah kobok'an?"
-WK: "Yo gak enak moso tamu gak dike'i ngombe..."
+WK: "Yo gak enak mosok tamu gak dike'i ngombe..."
 BD: (-_-') "Angget sampean aku jaran ta dike'i ngombe kobok'an!"
 WK: (Wonokairun cekikikan) "Guyon diiin..., ya rokayah gawekno kopi yah 2"
 RK: "Oke beib..."
@@ -44,7 +44,8 @@ WK: "aku nyawer bungkuse rokok klobot!! Lah gak onok duwek! :D"
 BD: "Wakakakakkaa"
 RK: "Opo ae yo aku krungu barbie sawer-sawer iku? sampean mau 
      bengi teko endi cak!"
-WK: "Opo seh iku loh mau bengi Bunali mari nabrak babi kupinge kewer-kewer"
+WK: "Opo seh iku loh mau bengi Bunali mari nabrak babi kupinge babine 
+     kewer-kewer sampe jange pedot"
 WK: "Mangkakno tah nek dikogkon perikso kuping iku nuruto!"
 
 (Brudin ambek Wonokariun ngguyu cekikikan)
@@ -139,4 +140,327 @@ $param1 = (isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : FALSE);
 if ($param1) {
     printf("Hello %s, Yok opo kabarmu?\n", $param1);
 }
+[ save exit :wq ]
 
+WK: "Iki tak git diff yo din?"
+BD: "Sembarang, nek sampean kepengen ndelok perbedaane yo gpp di git diff"
+WK: "Oke, tak jalakno sek tapine nek ngerti onok error e ta gak"
+
+[-- terminal --]
+$ /opt/lampp/bin/php hello.php Brudin
+Hello World!
+Hello Brudin, Yok opo kabarmu?
+$ git diff
+diff --git a/hello.php b/hello.php
+index 8eafb42..83b7ab5 100644
+--- a/hello.php
++++ b/hello.php
+@@ -3,3 +3,10 @@
+ // mencetak string Hello World
+ echo ("Hello World!");
+ echo ("\n");
++
++// Nyetak param kesiji
++$param1 = (isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : FALSE);
++// nek $param1 diisi cetak, tapi nek gak yo babahno
++if ($param1) {
++    printf("Hello %s, Yok opo kabarmu?\n", $param1);
++}
+
+BD: "Sampean tambahi pirang baris iku mbah 1,2,3...7"
+WK: "Iyo tak tambahi codingan anyar nak nisore seng mbiyen"
+BD: "Yo wis, saiki coba sampean nang branch seng endi? tapi commit en sek 
+     perubahane sampean mau. Sek eleng kan carane commit"
+WK: "Yo gampang din..., add disek teru dicommit kan?"
+
+[-- terminal --]
+$ git add hello.php
+$ git commit -m "Nambahi parameter kesiji"
+$ git branch
+  master
+* testing
+
+BD: "Masook!!! wis pinter sampean mbah!"
+WK: "Loh yok opo, Wonokairun rek... "
+BD: "Saiki coba delok'en isine file hello.php iku nggawe cat mbah!"
+WK: "cat biasa iku yo..."
+BD: "Iyo cat seng nggawe ndelok file iku loh, mosok katok."
+
+[-- terminal --]
+$ cat hello.php
+<?php
+
+// mencetak string Hello World
+echo ("Hello World!");
+echo ("\n");
+
+// Nyetak param kesiji
+$param1 = (isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : FALSE);
+// nek $param1 diisi cetak, tapi nek gak yo babahno
+if ($param1) {
+    printf("Hello %s, Yok opo kabarmu?\n", $param1);
+}
+
+WK: "Terus lapo mari ngene din"
+BD: "Karambolan mbah, wis suwe gak dolenan..."
+WK: "Loh koen... tak gibeng mecethat nang rolak koen. Engkok ae karambolan nek 
+     wis mari sinau GIT"
+BD: "hahaa oke-oke. Saiki coba pindaho maneh nang branch master mbah"
+WK: "sek...sek... tak eleng-eleng, berarti nggawe git checkout iku yo?"
+BD: "Iyo bener."
+
+[-- terminal --]
+$ git checkout master
+$ git branch
+* master
+  testing
+
+BD: "Nah saiki sampean wis nang branch master kan, coba saiki delok'en isine
+     hello.php maneh"
+WK: "Lah lapo, wong sek tas mau tak delok didelok maneh... aku gak pikun din"
+BD: "Seng ngomong pikun iku sopo!, kok sampean sek enom wis tak gibeng mecethat
+     nang kembang kuning! sayange wis tuwo gak tego aku!"
+WK: "Iyo aku methok Bunali nang kembang kuning dodolan korek nang kono!"
+BD: (-_-'). "Wis tah ndang praktekno!"
+WK: "yowis tak coba'e din"
+
+[-- terminal --]
+$ cat hello.php
+<?php
+
+// mencetak string Hello World
+echo ("Hello World!");
+echo ("\n");
+
+WK: "Loh din... Loh eh.. Loh eh..."
+BD: "Praen sampean koyok bedhes ketolop nek ngono mbah hahahaha. Lapo? bingung
+     yo kan?"
+WK: "Iyo! lah mau lak wis tak tambahi coding kanggo marsing parameter saiki kok
+     gak onok?!!"
+BD: "Yo iku gunane branching mbah wo, sampean iling gak saiki nang branch endi?"
+WK: "Nang branch master"
+BD: "Nah, seng codingan anyar mau nang branch endi?"
+WK: "Nang branch testing"
+BD: "Yo iku keistimewaane branching, dadi perubahan sek sampean lakokno nang 
+     salah sijine branch gak ngerubah branch liyane"
+WK: "Oh ngono.... mudeng-mudeng aku din"
+BD: "Coba mbalik'o maneh nang testing lak sek onok codingan seng anyar?"
+WK: "Oke tak coba'e"
+
+[-- terminal --]
+$ git checkout testing
+$ git branch 
+  master
+* testing
+$ cat hello.php
+<?php
+
+// mencetak string Hello World
+echo ("Hello World!");
+echo ("\n");
+
+// Nyetak param kesiji
+$param1 = (isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : FALSE);
+// nek $param1 diisi cetak, tapi nek gak yo babahno
+if ($param1) {
+    printf("Hello %s, Yok opo kabarmu?\n", $param1);
+}
+
+WK: "Loh iyo din, metu maneh codingan seng anyar..."
+BD: "Nah... misal sampean wis ngeroso yakin program nang branch testing iki 
+     layak dijalanno plus gak onok error seng fatal. sampean isok ae nggabungno
+     testing nang master.
+WK: "Oh iso digabung yo?"
+BD: "Isok mbah, iyo nek gendenge Bunali gak isok diwarasno alias permanen"
+WK: "Hahahhaha"
+BD: "Proses nggabung iku dijenengi merging, perintahe nggawe git merge. Contohne
+     git merge testing"
+WK: "Oh aku njalaknone kudu nang branch testing?"
+BD: "Yo gak, nek sampean kepengen nggabungno testing nang master berarti branch
+     seng aktif iku kudu master, baru perintah git merge testing"
+WK: "Oh ngono ta... paham-paham... tak coba'e yo din"
+BD: "Yo"
+
+[-- terminal --]
+$ git checkout master
+$ git merge testing
+Updating ab70a82..b0e6eec
+Fast-forward
+ hello.php |    7 +++++++
+ 1 files changed, 7 insertions(+), 0 deletions(-)
+
+WK: "Wah output anyar iki din, gak ngerti aku"
+BD: "Iku artine file hello.php ketambahan 7 baris anyar mbah."
+WK: "Oh nah nek tulisan Fast-forward iku opo artine?"
+BD: "Walah aku dewe gak sepiro mudeng nek iku mbah, google ae tapi intine
+     merging yo ngono iku lah"
+WK: "Masok...masok..."
+BD: "Saiki cobak cat terus jalaknao file hello.php nang branch master iku mbah"
+
+[-- terminal --]
+$ cat hello.php
+<?php
+
+// mencetak string Hello World
+echo ("Hello World!");
+echo ("\n");
+
+// Nyetak param kesiji
+$param1 = (isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : FALSE);
+// nek $param1 diisi cetak, tapi nek gak yo babahno
+if ($param1) {
+    printf("Hello %s, Yok opo kabarmu?\n", $param1);
+}
+$ /opt/lampp/bin/php hello.php
+Hello World!
+Hello Brudin, Yok opo kabarmu?
+$ git log
+commit b0e6eece7ff4aa36e1205d75648f6eac35033f77
+Author: Wonokairun Ganteng <wono@kairun.net>
+Date:   Sun Jun 12 22:47:49 2011 +0700
+
+    Nambahi parameter kesiji
+
+commit ab70a825c54fdf2e723538d288a44efdbff1951b
+Author: Wonokairun Ganteng <wono@kairun.net>
+Date:   Thu Jun 9 22:20:51 2011 +0700
+
+    Nambahi line feed
+
+commit 3f9903a3b698c225fbc2d1eeb6638097bef0298e
+Author: Wonokairun Ganteng <wono@kairun.net>
+Date:   Thu Jun 9 21:57:20 2011 +0700
+
+    Commit seng pertama (Mek nyetak Hello World tok)
+
+WK: "Iyo din podo kabeh karo seng testing din"
+BD: "Nah, misal saiki sampean kepengen ngubah programe maneh berarti ojok nang
+     branch master soale branch iki khusus seng wis jalan + bener-bener dites"
+WK: "Oh dadi aku mestine kudu mbalek maneh nang testing yo din?"
+BD: "Iyo..."
+WK: "Oke, nek ngono programe tak tambahi parameter ke-2 kanggo nentukno jumlah
+     looping pencetakan"
+WK: "Koen menengo ae din aku tak nyoba dhisek, nek onok seng salah ngomongo"
+BD: "Beres mbah."
+
+[-- terminal --]
+$ git checkout testing
+$ vim hello.php
+<?php
+
+// mencetak string Hello World
+echo ("Hello World!");
+echo ("\n");
+
+// Nyetak param kesiji
+$param1 = (isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : FALSE);
+// nek $param1 diisi cetak, tapi nek gak yo babahno
+if ($param1) {
+    // njupuk param ke-2, nek gak diisi yo didadekno 1 ae
+    $loop = (isset($_SERVER['argv'][2]) ? (int)$_SERVER['argv'][2] : 1);
+    for ($i=1; $i<=$loop; $i++) {
+        printf("%d) Hello %s, Yok opo kabarmu?\n", $i, $param1);
+    }
+}
+
+[ save exit :wq ]
+
+$ git diff
+diff --git a/hello.php b/hello.php
+index 83b7ab5..9a2e2a0 100644
+--- a/hello.php
++++ b/hello.php
+@@ -8,5 +8,9 @@ echo ("\n");
+ $param1 = (isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : FALSE);
+ // nek $param1 diisi cetak, tapi nek gak yo babahno
+ if ($param1) {
+-    printf("Hello %s, Yok opo kabarmu?\n", $param1);
++    // njupuk param ke-2, nek gak diisi yo didadekno 1 ae
++    $loop = (isset($_SERVER['argv'][2]) ? (int)$_SERVER['argv'][2] : 1);
++    for ($i=1; $i<=$loop; $i++) {
++        printf("%d) Hello %s, Yok opo kabarmu?\n", $i, $param1);
++    }
+ }
+
+$ git add hello.php
+$ git commit -m "Nambahi looping akehe sak parameter 2"
+$ /opt/lampp/bin/php hello.php Brudin 3
+Hello World!
+1) Hello Brudin, Yok opo kabarmu?
+2) Hello Brudin, Yok opo kabarmu?
+3) Hello Brudin, Yok opo kabarmu?
+$ git log --oneline
+37ff1d8 Nambahi looping akehe sak parameter 2
+b0e6eec Nambahi parameter kesiji
+ab70a82 Nambahi line feed
+3f9903a Commit seng pertama (Mek nyetak Hello World tok)
+$ git branch
+  master
+* testing
+
+WK: "Wis yo din koyok ngene kari 'merge' tok iki pokok'e yo?"
+BD: "Iyo sip mbah, tapi sek talah... sampean kok ngerti onok opsi --oneline
+     nang perintah git log? padahal aku gak ngajari"
+WK: "Loh yok opo... opo gunane aku biyen dolenan nekeran kaet cilik ambek 
+     Pangeran Charles nang latar'e istana buckingham palace"
+WK: "Yo moco dokumentasi ambek help'e rweek?"
+BD: "Wakakka siip mbah, saiki merge-en mbah branch testing nang master!"
+WK: "Oke din"
+
+[-- terminal --]
+$ git checkout master
+$ git branch
+* master
+  testing
+  
+WK: "Sek din... sek din..."
+BD: "Opo'o mbah weteng loro ta?"
+WK: "Gak, nek saumpomo aku kepengen ngerti perbedaane diff e master karo branch
+     testing ngono isok? kan aku pengen ngerti sak durunge tak merge"
+BD: "Oh isok mbah, podo ae gawe git diff cuman ditambahi parameter branch-e opo"
+WK: "Dadi nek branch ku 'abc', berarti git diff abc'?"
+BD: "Iyo bener..."
+
+[-- terminal --]
+$ git diff testing
+diff --git a/hello.php b/hello.php
+index 9a2e2a0..83b7ab5 100644
+--- a/hello.php
++++ b/hello.php
+@@ -8,9 +8,5 @@ echo ("\n");
+ $param1 = (isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : FALSE);
+ // nek $param1 diisi cetak, tapi nek gak yo babahno
+ if ($param1) {
+-    // njupuk param ke-2, nek gak diisi yo didadekno 1 ae
+-    $loop = (isset($_SERVER['argv'][2]) ? (int)$_SERVER['argv'][2] : 1);
+-    for ($i=1; $i<=$loop; $i++) {
+-        printf("%d) Hello %s, Yok opo kabarmu?\n", $i, $param1);
+-    }
++    printf("Hello %s, Yok opo kabarmu?\n", $param1);
+ }
+
+BD: "Nah iku perbedaane branch master karo branch testing ketok'e mbah"
+WK: "Oh iyo...iyo.., yowis tak merge yo"
+
+[-- terminal --]
+$ git merge testing
+Updating b0e6eec..37ff1d8
+Fast-forward
+ hello.php |    6 +++++-
+ 1 files changed, 5 insertions(+), 1 deletions(-)
+$ /opt/lampp/bin/php hello.php Brudin 3
+Hello World!
+1) Hello Brudin, Yok opo kabarmu?
+2) Hello Brudin, Yok opo kabarmu?
+3) Hello Brudin, Yok opo kabarmu
+
+WK: "Mantab jaya!"
+BD: "Wis yo mbah paham kan masalah branching-branchingan?"
+WK: "Iyo din wis lumayan paham aku"
+BD: "Yowis ayo karambol engkok selak nggone gak diumani karo Togok karo 
+     Mat Pithi"
+WK: "Nyante ae, nek sampe kene gak diumane tak dulang kanji arek loro iku!!"
+BD: "Wakakka joss mbah, ayo budhal..."
+WK: "Berangkat...!"
+
+bersambung ke episode 04...
